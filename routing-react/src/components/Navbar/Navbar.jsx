@@ -19,12 +19,12 @@ export function Navbar() {
           <li>
             <Link to="/Kontakt">Kontakt</Link>
           </li>
-          <li>
+          {/* <li>
             <Link to="/Layout">Layout</Link>
-          </li>
-         <li>
+          </li> */}
+         {/* <li>
           <Link to="/NoPage">NoPage</Link>
-         </li>
+         </li> */}
          <li>
           <Link to="/Om">Om</Link>
          </li>

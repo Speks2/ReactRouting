@@ -1,12 +1,151 @@
+
+$primary-color: #ebc713; 
+$secondary-color: #2c3e50; 
+$text-color: #333; 
+$background-color: #fbfbfb; 
+$hover-color: #ff0000; 
+
 body {
     background: rgb(179, 179, 179);
     box-sizing: 0;
     
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: $background-color;
+  color: $text-color;
+  line-height: 1.6;
+}
+
+nav {
+  background-color: $primary-color;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+
+    &:hover {
+      color: $hover-color;
+    }
+  }
+}
+
+section {
+  padding: 4rem 2rem;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+
+  &.hjem {
+    background-color: white;
+
+    h1 {
+      color: $primary-color;
+      font-size: 2.5rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-top: 1rem;
+    }
+  }
+
+//   &.koncepter {
+//     background-color: $background-color;
+
+//     h2 {
+//       color: $secondary-color;
+//       font-size: 2rem;
+//     }
+
+//     .concept-item {
+//       margin: 2rem auto;
+//       padding: 1rem;
+//       background-color: white;
+//       border-radius: 5px;
+//       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+//     }
+//   }
+
+//   &.kontakt {
+//     background-color: white;
+
+//     h2 {
+//       color: $primary-color;
+//     }
+
+//     form {
+//       max-width: 500px;
+//       margin: 2rem auto;
+//       display: flex;
+//       flex-direction: column;
+
+//       input,
+//       textarea {
+//         margin-bottom: 1rem;
+//         padding: 0.75rem;
+//         border: 1px solid #ccc;
+//         border-radius: 5px;
+//       }
+
+//       button {
+//         padding: 0.75rem;
+//         background-color: $primary-color;
+//         color: white;
+//         border: none;
+//         border-radius: 5px;
+//         cursor: pointer;
+//         transition: background-color 0.3s;
+
+//         &:hover {
+//           background-color: $hover-color;
+//         }
+//       }
+//     }
+//   }
+
+//   &.om {
+//     background-color: $background-color;
+
+//     h2 {
+//       color: $secondary-color;
+//     }
+
+//     .about-content {
+//       max-width: 700px;
+//       margin: 2rem auto;
+//       font-size: 1.1rem;
+//       line-height: 1.6;
+//       color: $text-color;
+//     }
+//   }
+}
+
+
+// footer {
+//   background-color: $secondary-color;
+//   color: white;
+//   text-align: center;
+//   padding: 1rem 0;
+//   position: fixed;
+//   bottom: 0;
+//   width: 100%;
+
+//   p {
+//     margin: 0;
+//   }
+// }
 
 }
 
