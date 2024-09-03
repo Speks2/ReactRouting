@@ -11,13 +11,13 @@ export function Navbar() {
         <nav className={styles.Navbar}>
         <ul>
           <li>
-            <Link to="/">Forside</Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/Koncepter">Koncepter</Link>
+            <Link to="/Koncepter">Concepts</Link>
           </li>
           <li>
-            <Link to="/Kontakt">Kontakt</Link>
+            <Link to="/Kontakt">Contact Us</Link>
           </li>
           {/* <li>
             <Link to="/Layout">Layout</Link>
@@ -26,7 +26,7 @@ export function Navbar() {
           <Link to="/NoPage">NoPage</Link>
          </li> */}
          <li>
-          <Link to="/Om">Om</Link>
+          <Link to="/Om">About</Link>
          </li>
         </ul>
       </nav>

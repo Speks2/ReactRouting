@@ -1,0 +1,17 @@
+* {
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Navbar ul li {
+    flex-direction: column;
+    display: flex;
+    background-color: rgb(244, 143, 143);
+    border-radius: 5rem;
+    padding: 1rem;
+    padding-bottom: 0.5rem;
+
+    &:hover {
+        background: blue;
+    }
+}
