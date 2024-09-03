@@ -17,7 +17,7 @@ export default function App() {
           <Route path="/Om" element={<Om />} />
           <Route path="/Kontakt" element={<Kontakt />} />
           <Route path="*" element={<NoPage />} />
-        </Route>
+        </Route>    
       </Routes>
     </BrowserRouter>
   );
