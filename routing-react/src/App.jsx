@@ -1,6 +1,10 @@
-import './components/Routing/Rout';
+import './components/Routing/Hjem';
 import { BrowserRouter as Router, Routes, Route, BrowserRouter } from "react-router-dom";
 import { Navbar } from './components/Navbar/Navbar';
+import {Hjem} from './components/Routing/Hjem';
+import {Koncepter} from './components/Routing/Koncepter';
+import {Kontakt} from './components/Routing/Kontakt';
+import {Om} from './components/Routing/Om';
 
 export function App() {
   return (

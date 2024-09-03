@@ -1,8 +1,8 @@
-import styles from '../Routing/Rout.module.scss';
+import styles from '../Routing/Hjem.module.scss';
 
 import { Link } from "react-router-dom";
 
-export function Rout() {
+export function Hjem() {
   return (
     <nav>
       <ul>
