@@ -7,7 +7,7 @@ export function Koncepter() {
 
     return (
 
-      <div className={s.Koncepter}>
+      <div className={styles.Koncepter}>
       <h2>Koncepter</h2>
       </div>
 

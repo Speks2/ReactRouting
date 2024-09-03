@@ -7,7 +7,7 @@ export function Om() {
 
     return (
 
-      <div className={s.Om}>
+      <div className={styles.Om}>
       <h2>Om</h2>
       </div>
      

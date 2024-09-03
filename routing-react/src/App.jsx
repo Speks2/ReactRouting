@@ -13,10 +13,9 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Hjem />} />
-          <Route path="hjem" element={<Hjem />} />
-          <Route path="koncepter" element={<Koncepter />} />
-          <Route path="om" element={<Om />} />
-          <Route path="kontakt" element={<Kontakt />} />
+          <Route path="/Koncepter" element={<Koncepter />} />
+          <Route path="/Om" element={<Om />} />
+          <Route path="/Kontakt" element={<Kontakt />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>

@@ -7,7 +7,7 @@ export function NoPage() {
 
     return (
 
-     <div classname={s.NoPage}>
+     <div className={styles.NoPage}>
         <h2>
         404......Error...No Page was found!
         </h2>

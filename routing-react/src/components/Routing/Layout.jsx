@@ -1,5 +1,6 @@
 import styles from './Layout.module.scss';
-
+import { Outlet } from 'react-router-dom';
+import {Navbar} from '../Navbar/Navbar';
 
 
 export function Layout() {
@@ -7,8 +8,9 @@ export function Layout() {
 
     return (
 
-     <div className={s.Layout}> 
-       <h2>Layout</h2> 
+     <div className={styles.Layout}> 
+     <Navbar/>
+       <Outlet/>
      </div>
     
 

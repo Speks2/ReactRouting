@@ -7,7 +7,7 @@ export function Kontakt() {
 
     return (
 
-    <div className={s.Kontakt}>
+    <div className={styles.Kontakt}>
       <h2>Kontakt</h2>
     </div>
     
